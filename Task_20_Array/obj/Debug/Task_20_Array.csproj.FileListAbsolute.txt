@@ -1,0 +1,8 @@
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\bin\Debug\Task_20_Array.exe.config
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\bin\Debug\Task_20_Array.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\bin\Debug\Task_20_Array.pdb
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\obj\Debug\Task_20_Array.csproj.AssemblyReference.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\obj\Debug\Task_20_Array.csproj.SuggestedBindingRedirects.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\obj\Debug\Task_20_Array.csproj.CoreCompileInputs.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\obj\Debug\Task_20_Array.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_20_Array\Task_20_Array\obj\Debug\Task_20_Array.pdb
