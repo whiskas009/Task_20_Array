@@ -11,8 +11,6 @@ namespace Task_20_Array
         static void Main(string[] args)
         {
             int[,] array = { { 2, 3} , { 4, 5} };
-            int sumString = 0;
-            int columnProduct = 1;
 
             Console.WriteLine("Исходная матрица: ");
 
@@ -20,15 +18,32 @@ namespace Task_20_Array
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    Console.Write(array[i, j]);
-                    sumString += array[1, j];
+                    Console.Write(array[i, j]);              
                 }
                 Console.WriteLine("");
-                columnProduct *= array[i, 0];
             }
 
-            Console.WriteLine($"\nСумма второй строки равна : {sumString}");
-            Console.WriteLine($"Произведение первого столбца равно: {columnProduct}\n");
+            Console.WriteLine("\nВведите номер строки, сумму которой необходимо узнать: \n");
+            int numberString = int.Parse(Console.ReadLine()) - 1;
+
+            Console.WriteLine("Введите номер стобца, произведение которой необходимо узнать: \n");
+            int numberColumn = int.Parse(Console.ReadLine()) - 1;
+
+            int sumString = 0;
+            int columnProduct = 1;
+
+            for (int i = 0; i < array.GetLength(1); i++)
+            {
+                sumString += array[numberString, i];
+            }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                columnProduct *= array[i, numberColumn];
+            }
+
+            Console.WriteLine($"\nСумма строки равна : {sumString}");
+            Console.WriteLine($"Произведение столбца равно: {columnProduct}\n");
         }
     }
 }
